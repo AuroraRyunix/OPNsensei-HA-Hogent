@@ -52,12 +52,29 @@ Use Trello, the sticky-note simulator.
 WP2_<initialen>_LIN_<omschrijving>
 Example: WP2_JB_LIN_Mint
 If you name it "linux-test-123", Get out.
--Use the NAT network with VLAN ID > 2000.
+- Use the NAT network with VLAN ID > 2000.
 Because apparently we love VLAN puzzles.
--Local admin username = your first name
--Password = Hogent*123
+- Local admin username = your first name
+- Password = Hogent*123
 Security? Never heard of her.
--Don’t enable flash mode.
+- Don’t enable flash mode.
 This isn’t SAP HANA.
--Make snapshots often.
+- Make snapshots often.
 This is not optional unless you enjoy reinstalling.
+
+## 2.2 Verbinden met Nutanix
+You need an explanation for this one? Consider yourself doomed.
+
+## 2.3 Re-Re-Re-sourceeees
+Please don't blow up our precious. (Cigrit)
+You get the following:
+- 2× OPNSense firewalls (HA)
+- 2× VyOS routers
+- 1× Mint client
+- 1× Debian webserver
+- 1× Rocky DHCP server
+- 1× Ubuntu DNS server
+- 2× AlmaLinux Samba DCs
+- 1× Alpine Pi-Hole
+
+Which talking about a virtual VM zoo, did you know apache zookeeper exists? Go have a google, you could learn something.
